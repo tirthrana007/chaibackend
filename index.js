@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
 app.get('/instagram', (req, res) => {
     res.send('_tirthh___')
   })
+  app.get('/github',(req,res)=>{
+    res.send('tirthrana007')
+  })
+
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
